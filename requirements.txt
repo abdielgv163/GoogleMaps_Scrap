@@ -1,0 +1,11 @@
+gspread==5.5.0
+ipykernel==6.16.0
+ipython==8.5.0
+jupyter-core==4.11.1
+jupyter_client==7.3.5
+matplotlib==3.6.0
+matplotlib-inline==0.1.6
+numpy==1.23.3
+pandas==1.5.0
+seaborn==0.12.0
+selenium==4.4.3

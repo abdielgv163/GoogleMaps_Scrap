@@ -1,14 +1,6 @@
-</a>
-
-<div>
-    <center>
-    <h4>Pagina web:</h4>
-    <a href="https://abdielgv163.github.io/">
-    <img width="50" src=https://png.pngtree.com/png-clipart/20190630/original/pngtree-vector-webpage-icon-png-image_4142055.jpg
-    </img>
-    </a>
-    </center>
-</div>
+<h5>
+<a href="[url](https://abdielgv163.github.io/)">Enlace a mi sitio web 👨‍💻	</a>
+</h5>
 
 ---
 
@@ -20,9 +12,6 @@ El programa está guardado en un jupyter notebook: `scraping_Google_Maps.ipynb`
 
 ---
 
-<video width="550" height="300" controls>
-  <source src="https://i.imgur.com/MWDzBwo.mp4" type="video/mp4">
-</video>
 
 
 [![Watch the video](https://i.imgur.com/k7zTCYE.png)](https://i.imgur.com/MWDzBwo.mp4)
@@ -50,6 +39,7 @@ El programa está guardado en un jupyter notebook: `scraping_Google_Maps.ipynb`
 
 ---
 
-<h4> Contacto: </h4> 
+<h3> Contacto: </h3> 
+
 
 [![Twitter: AbdielGuerrero](https://img.shields.io/twitter/follow/AbdielGuerrer20?style=social)](https://twitter.com/AbdielGuerrer20) [![Linkedin:Abdiel Guerrero](https://img.shields.io/badge/-AbdielGuerrero-black?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/abdiel-guerrero-360a39195/)](https://www.linkedin.com/in/abdiel-guerrero-360a39195/) [![GitHub abdielgv163](https://img.shields.io/github/followers/abdielgv163?label=follow&style=social)](https://github.com/abdielgv163)<a href="https://platzi.com/p/abdiel-guerrero/"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/3/32/Platzi.jpg" />

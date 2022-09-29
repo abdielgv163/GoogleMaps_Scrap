@@ -18,13 +18,15 @@ Herramienta que he creado para obtener información de Google Maps a partir de u
 
 El programa está guardado en un jupyter notebook: `scraping_Google_Maps.ipynb`
 
+---
 
 <video width="550" height="300" controls>
   <source src="https://i.imgur.com/MWDzBwo.mp4" type="video/mp4">
 </video>
 
+---
 
-En caso de querer darle otro uso hay que tener en cuenta que *enviar consultas automáticas a Google es una violación de sus Términos de Servicio*.
+>En caso de querer darle otro uso hay que tener en cuenta que *enviar consultas automáticas a Google es una violación de sus Términos de Servicio*.
 
 ---
 

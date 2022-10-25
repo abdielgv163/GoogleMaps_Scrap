@@ -25,17 +25,17 @@ El programa está guardado en un jupyter notebook: `scraping_Google_Maps.ipynb`
 
 ## Funcionamiento
 
-1. Comenzamos por crear una clase llamada `googleMapsScraper` la cual contiene la inicialización del driver y las funciones principales para abrir el navegador, realizar la búsqueda, obtener todos los resultados disponibles (Google los trunca hasta 200 máximo) y obtener los nombres y las direcciónes en Google Maps. 
-    Esto se logra en su mayoría con *Selenium* para poder ubicar los elementos de la página e interactuar con ellos (por ejemplo, posicionarse en la barra de búsqueda y ejecutar la acción).
-    
-    Esta primera parte sólo recibe como parámetros la URL de Google Maps y un `string` con la búsqueda que queremos realizar. Y devuelve una lista.
+1. Comenzamos por crear una clase llamada `googleMapsScraper` la cual contiene la inicialización del driver y las funciones principales para abrir el navegador, realizar la búsqueda, obtener los resultados y scrollear hasta que dejen de aparecer.
+    Esto se logra en su mayoría con `selenium` y `parsel` para poder ubicar los elementos de la página e interactuar con ellos (por ejemplo, posicionarse en la barra de búsqueda y ejecutar la acción).
 
-2. Después creamos un DataFrame de nuestra lista para obtener una "tabla" con los nombres de las búsquedas y el link de cada sitio.
+2. Posteriormente le pasamos la URL del sitio web de Google Maps y nuestra entrada de texto que queremos que busque. Esto llamará a nuestra clase anterior y almacenaremos los datos, que hasta este punto sólo incluyen `nombre del lugar` y `url`.
 
-3. Posteriormente, se crea la función `completeDataCollect()` que recibe como parámetro las URLs de la tabla anterior.
-    Esta ejecutará una búsqueda por cada elemento que tenemos para proceder a buscar datos como: dirección, estrellas, total de calificaciones, sitio web, número de teléfono y horarios.
+3. Después creamos un DataFrame de nuestra lista para obtener una "tabla" con los nombres de las búsquedas y el link de cada sitio.
 
-4. Finalmente, guardamos toda esa información en lista para posteriormente crear otro DataFrame y unirlo con el DataFrame anterior; unificando toda la información.
+4. Posteriormente, se crea la función `completeDataCollect()` que recibe como parámetro las URLs de la tabla anterior.
+    Esta ejecutará una búsqueda por cada elemento que tenemos para proceder a buscar datos como: `dirección, estrellas, total de calificaciones, sitio web, número de teléfono y horarios`.
+
+5. Finalmente, guardamos toda esa información en lista para posteriormente crear otro DataFrame y unirlo con el DataFrame anterior; unificando toda la información.
 
 ---
 
